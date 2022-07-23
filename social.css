@@ -281,7 +281,7 @@ footer h2
 
 }
 
-.ocean {
+/* .ocean {
   height: 300px;
   width: 300%;
   position: absolute;
@@ -326,4 +326,43 @@ footer h2
   100% {
     transform: translateX(-50%);
   }
+} */
+
+#footer
+{
+    background:url(IMAGES/footermain.jpg) no-repeat center center/cover;
+    clear: both;    
+    font-size:0.8em;  
+    
+    min-height: 70px;
+    position: absolute;
+    min-width: 100vw;
+    margin: 0 auto;
+    bottom:0;
+    z-index: 1;
+}
+
+#footer .footer-in
+{
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+#footer .social a
+{
+    font-size: 24px;
+    color: rgb(23, 8, 8);
+
+}
+
+#footer .copyright
+{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(23, 8, 8);
+}
+#h-main1
+{
+    color: black;
 }

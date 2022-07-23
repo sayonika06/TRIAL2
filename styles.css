@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300&family=Bree+Serif&family=Cormorant+SC:wght@500&family=Open+Sans&family=Poppins:wght@300&family=Roboto+Slab:wght@300&display=swap');
+
 body {
   overflow-x: hidden;
   margin: 0;
@@ -18,17 +20,17 @@ body {
   background: url(IMAGES/Announcement.jpg) no-repeat center center/cover;
   background-size: cover;
 }
-.heading
+/* .heading
 {
   font-size: xx-large;
-  /* font-family: "Angel rhapsody"; */
+ 
   text-transform: none;
   margin-top: 50px;
   padding-bottom: 50px;
   text-align: center;
   background-color: transparent;
   z-index: 150;
-}
+} */
 #register {
   position: absolute;
 
@@ -49,19 +51,21 @@ body {
 {
   text-align: center;
   color: rgb(255, 255, 255);
-  font-family: "Angel rhapsody";
-  font-size: 6vw;
+  font-size: 4vw;
   padding-top: 0px;
   padding-bottom: 4vh;
-  margin-top: 13vh;
+  margin-top: 16vh;
   margin-bottom: 1vh;
+  background-color: transparent;
+  z-index: 150;
+  font-family: 'Cormorant SC', serif;
 }
 
 
 @media screen and (max-width: 450px) {
-  #announcement h1 {
-    margin-top: 10vh;
-    font-size: 13vw;
+  .heading {
+    margin-top: 12vh;
+    font-size: 8vw;
   }
 }
 
@@ -279,7 +283,7 @@ margin-top: 9px; */
     }
 
     to {
-      margin-left: 2vw;
+      margin-left: 7vw;
 
     }
 
@@ -327,8 +331,8 @@ margin-top: 9px; */
     }
 
     to {
-      width: 160px;
-      height: 14%;
+      width: 130px;
+      height: 12%;
 
     }
 
@@ -387,7 +391,7 @@ margin-top: 9px; */
 
 @media screen and (max-width: 365px) {
   .shield {
-    width: 200px;
+    width: 300px;
     height: 30%;
     position: relative;
     display: block;
@@ -420,7 +424,7 @@ margin-top: 9px; */
 
   @keyframes example {
     from {
-      width: 200px;
+      width: 300px;
       height: 30%;
     }
 
