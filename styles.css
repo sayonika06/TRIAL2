@@ -873,6 +873,15 @@ margin-top: 9px; */
 }
 
 
+form
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
 
 
 
@@ -1049,7 +1058,7 @@ box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
     to {
       height: 3.4vh;
       width: 56vw;
-    margin-bottom: 4vh;
+    margin-bottom: 2vh;
     }
   } 
 }

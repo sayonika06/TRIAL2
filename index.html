@@ -116,7 +116,7 @@
         <!-- <h1 class="main-heading">Announcements</h1> -->
         <div class="main-div">
             <div class="content-box">
-                
+
                 <span class="contentmain">1) THIS IS THE FIRST DUMMY ANNOUNCEMENT. IT WILL BE REPLACED SOON</span>
                 <span class="contentmain content-2">
                     2) THIS IS THE FIRST DUMMY ANNOUNCEMENT. IT WILL BE REPLACED
@@ -140,41 +140,47 @@
     <section id="register">
         <img src="IMAGES/shieldafter.png" alt="" id="idshield" onclick="shieldfunc()" class="shield">
         <div id="idpage" onclick="paperfunc()" class="paper">
-            <form style="padding-left:10px ; padding-right: 8px;">
-                <label class="labelclass" for="name">Name:</label>
-                <br>
-                <input class="inputclass" type="text" id="name" name="name">
-                <br>
-                <label class="labelclass" for="college">College:</label>
-                <br>
-                <input class="inputclass" type="text" id="college" name="college">
-                <br>
-                <label class="labelclass" for="events">Events to take part in:</label>
-                <br>
-                <input class="inputclass" type="text" id="events" name="college">
-                <br>
-                <label class="labelclass" for="college">College ID Card Upload Image:</label>
-                <br>
-                <input class="inputclass" type="file" id="myFile" name="filename">
-                <br>
-                <input class="submitbtn" type="submit" value="Submit">
-            </form>
+            <div class="thisform">
+                <form style="padding-left:10px ; padding-right: 8px;">
+                    <label class="labelclass" for="name">Name:</label>
+                    <br>
+                    <input class="inputclass" type="text" id="name" name="name">
+                    <br>
+                    <label class="labelclass" for="name">Name:</label>
+                    <br>
+                    <input class="inputclass" type="email" id="name" name="name">
+                    <br>
+                    <label class="labelclass" for="college">College:</label>
+                    <br>
+                    <input class="inputclass" type="text" id="college" name="college">
+                    <br>
+                    <label class="labelclass" for="events">Events to take part in:</label>
+                    <br>
+                    <input class="inputclass" type="text" id="events" name="college">
+                    <br>
+                    <label class="labelclass" for="college">College ID Card Upload Image:</label>
+                    <br>
+                    <input class="inputclass" type="file" id="myFile" name="filename">
+                    <br>
+                    <input class="submitbtn" type="submit" value="Submit">
+                </form>
+            </div>
         </div>
 
         <footer id="footer">
             <div class="footer-in">
-              <img src="IMAGES/kaalrav-txt.png" alt="" style="height:9vh ; width:180px">
-              <br>
-              <img src="IMAGES/newsail.png" alt="" style="height:3vh ; width:160px; margin-top:28px;">
+                <img src="IMAGES/kaalrav-txt.png" alt="" style="height:9vh ; width:180px">
+                <br>
+                <img src="IMAGES/newsail.png" alt="" style="height:3vh ; width:160px; margin-top:28px;">
 
             </div>
-            
-          </footer>
-        
+
+        </footer>
+
     </section>
 
-    
-    
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -197,6 +203,8 @@
         let hbox = document.getElementsByClassName("inputclass")[2];
         let ibox = document.getElementsByClassName("labelclass")[3];
         let jbox = document.getElementsByClassName("inputclass")[3];
+        let kbox = document.getElementsByClassName("labelclass")[4];
+        let lbox = document.getElementsByClassName("inputclass")[4];
 
         let submitbox = document.getElementsByClassName("submitbtn")[0];
 
@@ -212,14 +220,16 @@
             hbox.classList.toggle("input-move");
             ibox.classList.toggle("label-move");
             jbox.classList.toggle("input-move");
+            kbox.classList.toggle("label-move");
+            lbox.classList.toggle("input-move");
             submitbox.classList.toggle("submitbtn-move");
 
 
         }
 
     </script>
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="app.js"></script>
 </body>
 
